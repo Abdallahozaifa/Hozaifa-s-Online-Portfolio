@@ -1,0 +1,847 @@
+@media only screen and (min-width:50px) and (max-width: 593px){
+		html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+	  display: block;
+	}
+	body {
+	  line-height: 1;
+	}
+	ol, ul {
+	  list-style: none;
+	}
+	blockquote, q {
+	  quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	  content: '';
+	  content: none;
+	}
+	table {
+	  border-collapse: collapse;
+	  border-spacing: 0;
+	}
+	.row{
+	  background: #fff;
+	  min-width: 100%;
+	  padding:66px 0 44px 0;
+	}
+	.frontpage-row{
+	  background: #fff;
+	  min-width: 100%;
+	  padding:66px 0 12px 0;
+	}
+	/*
+	  ========================================
+	  Grid
+	  ========================================
+	*/
+	*,
+	*:before,
+	*:after {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	          box-sizing: border-box;
+	}
+	/********************************************
+	*	The Journey now begins!!!!!!!			*
+	*********************************************/
+	.container {
+	  width:100%;
+	  padding:0 30px;
+	  margin:0 auto;
+	  /*border:2px solid red;*/
+	  
+	}
+	/*
+	  ========================================
+	  Typography
+	  ========================================
+	*/
+
+	h1, h3, h4, h5, p {
+	  margin-bottom: 22px;
+	}
+	p{
+	  width:100%;
+	}
+	h1, h2, h3, h4 {
+	  color: #648880;
+	}
+	h1 {
+	  font-size: 36px;
+	  line-height: 44px;
+	}
+	h2 {
+	  font-size: 24px;
+	  line-height: 44px;
+	}
+	h3 {
+	  font-size: 21px;
+	  text-align: center;
+	}
+	h4 {
+	  font-size: 18px;
+	}
+	h5 {
+	  color: #a9b2b9;
+	  font-size: 14px;
+	  font-weight: 400;
+	}
+	strong {
+	  font-weight: 400;
+	}
+	cite, em {
+	  font-style: italic;
+	}
+	/*
+	  ========================================
+	  Buttons
+	  ========================================
+	*/
+	.btn{
+	  border-radius: 5px;
+	  display: inline-block;
+	  margin-left:35%;
+	  color:#fff;
+	  cursor: pointer;
+	  text-transform: uppercase;
+	  font-weight: 400;
+	  letter-spacing: .5px;
+	}
+	.btn-alt {
+
+	  border: 1px solid #fff;
+	  padding: 10px 30px;
+	}
+	.btn-alt:hover{
+	  background: #fff;
+	  color:#648880;
+	}
+	/*
+	  ========================================
+	  Clearfix
+	  ========================================
+	*/
+	.group:before,
+	.group:after {
+	  content: "";
+	  display: table;
+	}
+	.group:after {
+	  clear: both;
+	}
+	.group {
+	  clear: both;
+	  *zoom: 1;
+	}
+	/*
+	  ========================================
+	  Primary header
+	  ========================================
+	*/
+	.logo {
+	  border-top: 4px solid #648880;
+	  float: left;
+	  font-size: 300%;
+	  font-weight: 250;
+	  letter-spacing: .5px;
+	  line-height: 44px;
+	  padding: 40px 0 22px 0;
+	  text-transform: uppercase;
+	}
+	/*
+	  ========================================
+	  Primary footer
+	  ========================================
+	*/
+	.primary-footer small {
+	  float:left;
+	  display:none;
+	}
+	h6{
+		display:none;
+	}
+	.primary-footer{
+	  padding-bottom: 44px;
+	  padding-top: 44px;
+	  width:100%;
+	  height:100%;
+	}
+	
+	*/
+	/*
+	  ========================================
+	  Grid
+	  ========================================
+	*/
+	*,
+	*:before,
+	*:after {
+	  box-sizing: border-box;
+	}
+	.col-1-3 {
+	  width:100%;
+	}
+	.col-2-3 {
+	  width:100%;
+	}
+	.col-1-3, .col-2-3{
+	  display: inline-block;
+	  vertical-align: top;
+	}
+	.grid, .col-1-3, .col-2-3{
+	  padding-left:15px;
+	  padding-right: 15px;
+	  /*border:2px solid red*/;
+	}
+	aside{
+	  width:100%;
+	}
+	.container, .grid{
+	  margin:0 auto;
+	  width:100%;
+	  height:100%;
+	}
+
+	/*
+	  ========================================
+	  Custom styles
+	  ========================================
+	*/
+	body{
+	  color:#888;
+	  font: 300 15% "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  min-width: 100%;
+	}
+	/*
+	  ========================================
+	  Links
+	  ========================================
+	*/
+
+	a:hover {
+	  color: #a9b2b9;
+	}
+	a {
+	  color: #648880;
+	  text-decoration: none;
+	}
+	.teaser a:hover h3 {
+	  color: #a9b2b9;
+	}
+	p a{
+	  border-bottom: 1px solid #dfe2e5;
+	}
+	.primary-header a, .primary-footer a{
+	  color:#fff;
+	}
+	.primary-header a:hover, .primary-footer a:hover, .active{
+	  color:#648880;
+	}
+	.active{
+	  color:#a9b2b9;
+	  border-bottom:3px #FFF solid;
+	}
+	/*
+	  ========================================
+	  Date, Navigation, and Footer
+	  ========================================
+	*/
+	.tagline{
+	  margin:66px 0 22px 0;
+	  text-align: right;
+	  font-size:135%;
+	  width:100%;
+	}
+	.primary-nav{
+	  font-size: 89%;
+	  font-weight: 400;
+	  letter-spacing: .5px;
+	  text-transform: uppercase;
+	  width:100%;
+	}
+	.primary-footer{
+	  color: #648880;
+	  font-size: 14px;
+	  padding-bottom: 44px;
+	  padding-top: 44px;
+	  width:100%;
+	  text-align: center;
+	  width:100%;
+	  padding-left: 40%;
+	  padding-right: 50%;
+	  margin:0 auto;
+	  
+	}
+	.primary-footer small {
+	  float: left;
+	  font-weight: 400;
+	  width:100%;
+	}
+	/*
+	  ========================================
+	  Main Content styles
+	  ========================================
+	*/
+	.hero {
+	  color:#fff;
+	  line-height: 44px;
+	  padding: 22px 80px 66px 80px;
+	  text-align: center;
+	}
+	.hero h2 {
+	  font-size: 36px;
+	}
+	.hero p {
+	  font-size: 24px;
+	  font-weight: 100;
+	  color:#fff;
+	}
+	h5 {
+	  color: #a9b2b9;
+	  font-size: 14px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+	}
+	/*
+	  ========================================
+	  Navigation
+	  ========================================
+	*/
+
+	.nav {
+	  text-align: right;
+	  font-size:105%;
+
+	}
+	body{
+	  background:#293f50;
+	  color:#888;
+	  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	/*
+	  ========================================
+	  Gradients
+	  ========================================
+	*/
+	.row, .row-alt{
+	  width:100%;
+	}
+	.row-alt {
+	   background: #cbe2c1;
+	   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+	   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+	   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+	   height:250px;
+	   padding: 44px 0 22px 0;
+	   min-width: 100%;
+	   width:100%;
+	 }
+	 .green-bar span{
+	  display:none;
+	 }
+	 .about-quote:after{
+	  content:'"I am always doing that which I cannot do, in order that I may learn how to do it. ~Pablo Picasso"';
+	 }
+	 .projects-quote:after{
+	  content: '"Ambition is the path to success. Persistence is the vehicle you arrive in. ~Bill Bradley"'
+	 }
+	 .experience-quote:after{
+	  content: '"I am someone who is open-minded to new experiences because they teach you new things. ~Marilyn Manson"'
+	 }
+	 .staytuned:after{
+	  content:'"Thank you for visiting and hope you enjoyed. Stay tuned for more of my amazing projects!"';
+	 }
+	 .introduction-projects{
+	  display: none;
+	 }
+	 .introduction-projects:after{
+	  content:'Check out my Projects down below!';
+	 }
+	 .eager-experiences span{
+	    display:none;
+	 }
+	 .eager-experiences:after{
+	    content:'Eager for my experiences?';
+	 }
+	 .contact-me{
+	  text-align: center;
+	 }
+	 .contact-me span{
+	  display: none;
+	 }
+	 .contact-me:after{
+	  content:'Want to Contact me?';
+	 }
+	 /*
+	  ========================================
+	  Leads
+	  ========================================
+	*/
+	.lead{
+	  text-align: center;
+	  width:100%;
+	}
+	.lead p{
+	  font-size:21px;
+	  line-height: 33px;
+	}
+	.lead h1{
+	  font-size: 36px;
+	  
+	}
+	.nav li{
+	  display: inline-block;
+	  margin:0 10px;
+	  vertical-align: top;
+	}
+	.nav li:last-child{
+	  margin:0;
+	  margin-left: 10px;
+	}
+	.primary-nav a{
+	  width:50px;
+	  height:60px;
+	}
+	 /*
+	  ========================================
+	  About Styles
+	  ========================================
+	*/
+	.picture-info{
+	  border:1px solid #dfe2e5;
+	  margin-top:88px;
+	  padding-bottom:22px;
+	  text-align: center;
+	  border-radius:5px;
+	  width:100%;
+	  margin-bottom:30px;
+	}
+	.speaker-info{
+	  border:1px solid #dfe2e5;
+	  margin-top:20px;
+	  padding-bottom:22px;
+	  text-align: center;
+	  width:90%;
+	  border-radius: 30px;
+	  padding-left: 20px;
+	  padding-right: 30px;
+	  margin-left: 6%;
+	  margin-bottom: 10%;
+	}
+	.speaker{
+	  margin-bottom: 44px;
+	}
+	.lastcontent{
+	  font-size: ;
+	  
+	  background-color:#FFF;
+	  border: 2px solid #a1a1a1;
+	  padding: 10px 30px; 
+	  background: #dddddd;
+	  border-radius: 25px;
+	  vertical-align: center;
+	}
+	/*
+	  ========================================
+	  Home and front page Images
+	  ========================================
+	*/
+	.teaser img{
+	  display:block;
+	  max-width: 100%;
+	  border-radius: 5px;
+	  margin-bottom: 22px;
+	  width:100%;
+	  height:100%;
+	  border:1px solid gray;
+	}
+	.project-title{
+		padding-bottom: 5%;
+		padding-top:5%;
+		font-size:170%;
+		text-align:center;
+		line-height: 30px;
+	}
+	.picture-info img{
+	  width:60%;
+	  vertical-align: top;
+	  margin:-66px 0 22px 0;
+	  border-radius: 50%;
+	  box-shadow: 10px 10px 5px #888888;
+	  border:1px solid gray;
+	}
+	.speaker-info img{
+	  width:100%;
+	  vertical-align: top;
+	  margin:20px 5px;
+	  padding:1px;
+	   border:1px solid gray;
+	   background-color:gray;
+	}
+	 .pennstate {
+	  margin-top: 5%;
+	  border-radius: 10px;
+	  box-shadow: 5px 5px 5px #888888;
+	  width:100%;
+	}
+	.pennstate-behrend{
+	  margin-top: 15%;
+	  border-radius: 10px;
+	  box-shadow: 5px 5px 5px #888888;
+	  width:80%;
+	  margin-left: 10%;
+	  margin-bottom: 10%;
+	}
+
+	/*
+	  ========================================
+	  Contact Page
+	  ========================================
+	*/
+	.why-attend{
+	  list-style: square;
+	  margin:0 0 22px 30px;
+	  line-height: 35px;
+	}
+	form{
+	  margin-bottom: 22px;
+	}
+	input,
+	select,
+	textarea {
+	  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	fieldset{
+	   margin-top: 30px;
+	}
+	.register-group label{
+	  color: #648880;
+	  cursor: pointer;
+	  font-weight: 400;
+	}
+	}
+	.register-group select{
+	  background: #fff;
+	}
+	.gray,
+	.register-group select,
+	.register-group textarea {
+	  border:1px solid #c6c9cc;
+	  display: block;
+	  border-radius: 5px;
+	  color:#888;
+	  margin:5px 0 27px 0;
+	  padding:5px 8px;
+	}
+	.submit{
+	  color:#fff;
+	}
+	.register-group input,
+	.register-group textarea{
+	  width:100%;
+	  margin-bottom: 10%;
+	}
+	.register-group input{
+	  border:1px solid #c6c9cc;
+	  display: block;
+	  border-radius: 5px;
+	  margin:5px 0 27px 0;
+	  padding:5px 8px;
+	}
+	.register-group select{
+	  height: 34px;
+	  width: 60px;
+	}
+	.register-group textarea{
+	  height:150px;
+	}
+	.btn-default{
+	  border:0;
+	  background:#648880;
+	  padding:11px 30px;
+	  font-size: 14px;
+	}
+	.btn-default:hover {
+	  background: #77a198;
+	}
+	.message{
+      background:#e9ffd9 url(../images/success.png) no-repeat 10px 50%;
+      border:1px solid #a6ca8a;
+      color:#555;
+	  border-radius:10px;
+	  font-family: Tahoma, Geneva, Arial, sans-serif;
+	  font-size:11px;
+	  padding:10px 36px;
+	  margin-top:30px;
+	  width:auto;
+    }
+	.message span {
+	  font-weight:bold;
+	  text-transform:uppercase;
+	}
+	.error span {
+	  font-weight:bold;
+	  text-transform:uppercase;
+	}
+	.error{
+	  background:#ffecec url(../images/error.png) no-repeat 10px 50%;
+	  border:1px solid #f5aca6;
+	  color:#555;
+	  border-radius:10px;
+	  font-family: Tahoma, Geneva, Arial, sans-serif;
+	  font-size:11px;
+	  padding:10px 36px;
+	  margin-top:30px;
+	  width:auto;
+	 }
+	/*
+	  ========================================
+	  Schedule Styles
+	  ========================================
+	*/
+	table{
+	  width: 100%;
+	  margin-bottom: 44px;
+	}
+	table:last-child{
+	  margin-bottom:0;
+	}
+
+	th,td{
+	  padding-bottom: 22px;
+	  vertical-align: top;
+	}
+	th{
+	  padding-right: 45px;
+	  text-align: right;
+	  width: 20%;
+	}
+	td{
+	  width: 40%;
+	}
+	thead{
+	  line-height: 44px;
+	}
+	thead th{
+	  color:#648880;
+	  font-size: 24px;
+	}
+	tbody th {
+	  color: #a9b2b9;
+	  font-size: 14px;
+	  font-weight: 400;
+	  padding-top: 22px;
+	  text-transform: uppercase;
+	}
+	tbody td {
+	  border-top: 1px solid #dfe2e5;
+	  padding-top: 21px;
+	}
+	tbody td:first-of-type {
+	  padding-right: 15px;
+	}
+	tbody td:last-of-type {
+	  padding-left: 15px;
+	}
+	tbody td:only-of-type {
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	table a {
+	  color: #888;
+	}
+	table h4 {
+	  margin-bottom: 0;
+	}
+	.schedule-offset {
+	  color: #a9b2b9;
+	}
+	figcaption{
+	  margin-top: 10px;
+	  font-size:100%;
+	  line-height: 30px;
+	  margin-left: 0;
+	}
+	
+	.project-heading{
+	  font-size: 100%;
+	  text-align: center;
+	  border-bottom: 1px solid #648880;
+	  margin-bottom: 20px;
+	  padding-bottom: 25px;
+
+	}
+	.introduction-projects{
+	  text-align: center;
+	  font-size: 23px;
+	}
+	.half-width{
+	  width: 50%;
+	  display: inline-block;
+	  vertical-align: top;
+	  
+	}
+	.research{
+	  margin-top:;
+	  padding:20px 5px;
+	  text-align: center;
+	  border:1px solid gray;
+	  width: 100%; 
+	  background: linear-gradient(to right, #a1d3b0, #f6f1d3, #00CC66);
+	  border-radius: 15%;
+	  margin-bottom: 40px;
+	 
+	}
+	.research img{
+	 
+	  border-radius: 20%;
+	  border:1px solid black;
+	  margin-right: 5px;
+	  margin-left: 5px;
+	  width:90%;
+	}
+	p::first-letter {
+	    font-size: 150%;
+	}
+	.researchpic:first-child{
+	  padding-top:20px;
+	  
+	  padding-bottom: 5px;
+	}
+	.researchpic{
+	  margin-bottom: -15px;
+	  margin-top: -10px;
+	}
+	/*
+	  ========================================
+	  Green Bar
+	  ========================================
+	*/
+	.green-bar{
+	  font-size: 150%;
+	  line-height: 140%;
+	  width:100%;
+	  height:100%;
+	}
+	.staytuned{
+	  width:100%;
+	}
+	.whats-up{
+	  text-align: center;
+	}
+
+	body, .speaker, .col-1-3, .col-2-3{
+		width:100%;
+		margin:0;
+	}
+	nav{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		height:200px;
+	}
+	.nav li{
+		width:100%;
+	}
+	nav ul li{
+		width:100%;
+		text-align: center;
+		height:40px;
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+	nav ul li a{
+		width:50px;
+		height:500px;
+	}
+	.primary-header a{
+		text-align: center;
+
+	}
+	.logo{
+		text-align:center;
+		float:none;
+		
+		width:100%;
+		text-align: center	
+	}
+    
+    .container, .grid{
+    	width:100%;
+
+    }
+    .tagline{
+    	display:none;
+    }
+    .picture-info{
+    	width:100%;
+    }
+    .primary-footer{
+    	width:100%;
+    	padding-top: 5%;
+    	padding-bottom: 0;
+    	text-align: center;
+    	float:none;
+    }
+	.foxyform{
+	  width:10%;
+	  margin-top: 5%;
+	  margin-left: 32%;
+	}
+	.contact-paragraph{
+	  width: 80%;
+	  margin: 0 auto;
+	  line-height: 30px;
+	  letter-spacing: 1px;
+	}
+	p{
+	  width:100%;
+	  line-height: 35px;
+	}
+	.projects p{
+	  line-height: 35px;
+	}
+	.front-h2-center{
+	  font-size: 35px;
+	  padding-bottom: 5px;
+	  margin-bottom:15px;
+	  width:100%;
+	  text-align: center;
+	}
+	.front-h2-center span{
+	  display:none;
+	}
+	.front-h2-center:after{
+	  content:'My Portfolio!';
+	}
+	.contact-h3{
+	  font-size: 35px;
+	  padding-bottom: 15px;
+	}
+	
+}

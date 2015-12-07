@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hozaifa Abdalla</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/0-593.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/594-900.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/901-1256.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/1257-desktop.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	</head>
+	<body>
+		<!--......................................................................................................................................... 
+		.														Header of the Page
+		..........................................................................................................................................-->
+		<header class="primary-header container group">
+			<h1 class="logo">
+				<a href="/">Hozaifa <br> Abdalla</a>
+			</h1>
+			<h3 class="tagline">July 16&ndash;31th &mdash; Erie, PA</h3>
+			<nav class="nav primary-nav">
+				<ul>
+	    			<li><a href="/">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html" class="active">Experience</a></li><!--
+	    			--><li><a href="contact.html">Contact</a></li>
+    			</ul>
+  			</nav>
+		</header>
+		<!--......................................................................................................................................... 
+		.														Experience
+		..........................................................................................................................................-->
+			<section class="row-alt">
+				<div class="lead container">
+					<h3 class="green-bar experience-quote"><span>&quot;Nothing ever becomes real till it is experienced even a proverb is no proverb to you till your life has illustrated it.&quot; <br>~John Keats</span></h3>	
+				</div>
+			</section>
+		<!--......................................................................................................................................... 
+		.														Main Content
+		..........................................................................................................................................-->
+			<section class="row">
+				<div class="grid">
+					<div class="col-2-3">
+						<h3 class="project-heading">Experience</h3>
+						<h3 class="eager-experiences"><span>Would you like to know my experiences?</span></h3>
+						<p class="experience">Great, because I have plenty to share, I served as a faculty research assistant in Behrend for one semester. The research project specifically involved cyber security. A couple of classmates and I colloborated ideas with <a href="https://psbehrend.psu.edu/school-of-engineering/faculty-staff-directory/mechanical-engineering/xiao" target="_blank">Dr. Xiao</a> , assistant professor of Computer Science and Software Engineering. Our aim was to develop a program in python to disrupt phishing websites from stealing users' credentials through integrating a fake credential generator that looped through a list of phishing websites submitting fake information in order to obtain IP addresses of various phishers.</p>
+						<p class="experience">Another one of my experiences was being a tutor in the <a href="https://psbehrend.psu.edu/Academics/academic-services/lrc" target="_blank">Learning Resource Center</a> at behrend. I tutored four subjects that include <a href="http://bulletins.psu.edu/undergrad/courses/C/CHEM/110/201213S1" target="_blank">general chemistry: Chem 110</a>, <a href="http://bulletins.psu.edu/undergrad/courses/P/PHYS/211/199900FA" target="_blank">general physics: Mechanics</a>, <a href="http://bulletins.psu.edu/undergrad/courses/M/MATH/141/199596SP" target="_blank">Calculus 1 and 2 with analytic geometry</a>, along with <a href="http://bulletins.psu.edu/undergrad/courses/C/CMPSC/121/201011FA" target="_blank">Introduction to C++</a>. My responsibilities as a tutor was not just mentoring students in coursework but also helping them develop skills and confidence in their ability to form effective study habits making it easier to obtain more information.</p>
+						<p class="experience">I also volunteered as a <a href="https://psbehrend.psu.edu/student-life/educational-equity-and-diversity/student-resources/faststart-behrend" target="_blank">fast start mentor</a> for fast start which is a program designed to help first year students from diverse backgrounds or disabilities get a headstart in their college career by getting paired with an upperclassmen mentor who can mentor them about their opportunities in college. As a mentor I not only provided guidance and direction to developing solutions to career issues for mentees but as well, shared valuable knowledge and experience in how to manage the college lifestyle along with succeeding with good grades.</p>
+					</div><!--
+
+			          --><aside class="col-1-3">
+			            <div class="research">
+			            	<img src="../static/images/research-800.jpg" alt="penn state research" width="300px"> 
+			          
+			          		<a href="https://psbehrend.psu.edu/research-outreach/student-research" target="_blank"><h3 class="researchpic">Penn State Research</h3></a>
+			                <a href="http://www.HozaifaAbdalla.com"><h3 class="researchpic">@HozaifaAbdalla.com</h3></a>
+			            </div>
+			          </aside>
+					
+				</div>
+			</section>
+
+
+		<!--......................................................................................................................................... 
+		.														Footer of the Page
+		..........................................................................................................................................-->
+		<footer class="primary-footer container group">
+			<small>Created by Hozaifa Abdalla and hosted via Google App Engine</small>
+			<nav class="nav pages">
+				<ul>
+	    			<li><a href="/">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html" class="active">Experience</a></li><!--
+	    			--><li><a href="contact.html">Contact</a></li>
+    			</ul>
+  			</nav>
+		</footer>
+	</body>
+</html>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+			if ($(document).width() <= 900)
+		    		$(".research").insertBefore(".project-heading");
+			if ($(document).width() >= 594 && $(document).width() <= 850){
+					$(".pages").after("<h6>Created by Hozaifa Abdalla and hosted via Google App Engine</h6>");
+			}
+		});
+</script>

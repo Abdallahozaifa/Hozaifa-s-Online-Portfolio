@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hozaifa Abdalla</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/0-593.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/594-900.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/901-1256.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/1257-desktop.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	</head>
+	<body>
+		<!--......................................................................................................................................... 
+		.														Header of the Page
+		..........................................................................................................................................-->
+		<header class="primary-header container group">
+			<h1 class="logo">
+				<a href="/">Hozaifa<br>Abdalla</a>
+			</h1>
+			<h3 class="tagline">July 16&ndash;31th &mdash; Erie, PA</h3>
+			<nav class="nav primary-nav">
+				<ul>
+	    			<li><a href="/" class="active">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html">Experience</a></li><!--
+	    			--><li><a href="contact.html">Contact</a></li>
+    			</ul>
+  			</nav>
+		</header>
+		<!--......................................................................................................................................... 
+		.														Main Content
+		..........................................................................................................................................-->
+			<section class="frontpage-row">
+				<div class="grid">
+					<section class="speaker" >
+
+			          <div class="col-2-3">
+
+			            <h2 class="front-h2-center"><span>Welcome to my online portfolio!</span></h2>
+
+			            <p id="engineer">Hello I'm Hozaifa Abdalla and currently a junior pursuing a <a href="https://psbehrend.psu.edu/school-of-engineering/academic-programs/software-engineering" target="_blank">Software Engineering</a> degree at <a href="https://psbehrend.psu.edu/" target="_blank">Penn State Behrend</a>. I have always been a young ambitious developer from a younger age and have been fascinated in technology since birth!</p>
+
+			            <p>Aside from school I like to keep myself busy with many things such as this site which was built from scratch by me using HTML5, CSS3, and some google services including a google map and google font.</p>
+
+			            <p>I also serve as a <a href="https://psbehrend.psu.edu/student-life/housing-and-residence-life/residence-life-1" target="_blank">resident assistant</a> which gives me the opportunity to make a positive impact as well as develop educational, social, recreational, and cultural programs for residents. I am a peer tutor in the <a href="https://psbehrend.psu.edu/Academics/academic-services/lrc" target="_blank">Learning Resource Center</a> and tutor four different subjects including general chemistry, general physics, calculus 1 &amp; 2 with analytic geometry, and Introductory to C++. I have released a few applications that I built using <a href="https://cloud.google.com/appengine/docs" target="_blank">google's app engine</a> with the python programming language as a backend. One of the applications is a blog for students to use for all the campus events that are occuring and the second application is a site that allows users to submit Ascii Art and compete against others. For more information check the projects tab. 
+			            </p>
+
+			            <h4>Other noteworthy things about me is that I am also a</h4>
+
+						  <ul class="why-attend">
+						  	<li>Faculty Research Assistant</li>
+						    <li>Fast Start Mentor</li>
+						    <li>A member of the Cyber Security Club</li>
+						    <li>Deans list student who is ambitous in learning new things everyday!</li>
+						  </ul>
+
+			          </div><!--
+
+			          --><aside class="col-1-3" id="hozaifa">
+			            <div class="picture-info">
+			            	  <img src="../static/images/Hozaifa.gif" alt="Picture of Hozaifa" class="hozaifa">
+				              <ul>
+				                <li>Hozaifa Abdalla</li>
+				                <li><a href="http://www.HozaifaAbdalla.com/">@HozaifaAbdalla.com</a></li>
+				              </ul>
+			           </div>
+			           <a href="http://www.psu.edu/" target="_blank"><img class="pennstate-behrend" src="../static/images/behrendlives.jpg" alt="Picture of Pennstate"></a>
+			          </aside>
+			      </section>
+			  </div>
+			</section>
+		<!--......................................................................................................................................... 
+		.														Footer of the Page
+		..........................................................................................................................................-->
+		<footer class="primary-footer container group">
+			<small class="small">Created by Hozaifa Abdalla and hosted via Google App Engine</small>
+			<nav class="nav pages">
+				<ul>
+	    			<li><a href="/" class="active">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html">Experience</a></li><!--
+	    			--><li><a href="contact.html">Contact</a></li>
+    			</ul>
+  			</nav>
+		</footer>
+	</body>
+</html>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+		    if ($(document).width()  <= 900){
+					$(".picture-info").insertBefore("#engineer");
+				}
+			if ($(document).width() >= 594 && $(document).width() <= 850){
+					$(".pages").after("<h6>Created by Hozaifa Abdalla and hosted via Google App Engine</h6>");
+			}
+		});
+</script>
+

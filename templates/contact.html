@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hozaifa Abdalla</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/0-593.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/594-900.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/901-1256.css">
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/1257-desktop.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	</head>
+	<body>
+		<!--......................................................................................................................................... 
+		.														Header of the Page
+		..........................................................................................................................................-->
+		<header class="primary-header container group">
+			<h1 class="logo">
+				<a href="/">Hozaifa<br> Abdalla</a>
+			</h1>
+			<h3 class="tagline">July 16&ndash;31th &mdash; Erie, PA</h3>
+			<nav class="nav primary-nav">
+				<ul>
+	    			<li><a href="/">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html">Experience</a></li><!--
+	    			--><li><a href="contact.html" class="active">Contact</a></li>
+    			</ul>
+  			</nav>
+		</header>
+		<!--......................................................................................................................................... 
+		.														Venue Lead container
+		..........................................................................................................................................-->
+			<section class="row-alt">
+				<div class="lead container">
+					<h3 class="staytuned green-bar"><span>Thank you for visiting and hope you enjoyed! <br> Stay tuned for more of my projects!</span></h3>	
+				</div>
+			</section>
+		<!--......................................................................................................................................... 
+		.														Main Content
+		..........................................................................................................................................-->
+			<section class="row">
+			<div class="grid">
+				<section class="col-2-3">
+					<h2 class="contact-me"><span>Would you like to contact me?</span></h2>
+
+					  <p>Hello, If you are interested in my skills or expertise I am actively fielding internship offers for Spring and/or Summer of 2016. I currently reside in Erie, Pennsylvania but absolutely willing to relocate. I'm more than capable of learning new technologies at a fast pace and willing to try different areas in the software development industry. If you would be interested in hiring me, please email me using the form found on your right!</p>
+
+					  <h4>I'm very confident in...</h4>
+
+					  <ul class="why-attend">
+					  	<li>Front End Development with Html, Css, and Javascript.</li>
+					    <li>Backend Development with Python.</li>
+					    <li>User Interface Design</li>
+					    <li>Learning new technologies!</li>
+					  </ul>
+				</section><!--
+				--><form class="col-1-3" method="post" id="form" name="message" >
+						<fieldset class="register-group">
+							<label>
+								Name
+								<input type="text" name="name" placeholder="Full Name" id="name" required>
+							</label>
+							<label>
+								Email
+								<input type="email" name="email" placeholder="Email address" id="email" required>
+							</label>
+							
+							<label>
+								Message
+								<textarea name="message" placeholder="Type your message here..." id="message" required></textarea>
+							</label>
+						</fieldset>
+
+						<input class="btn btn-default" type="submit" value="Submit" id="submit">
+						<div class="message">
+							     <span>success:</span> Message was successfully sent!
+						</div>
+						<div class="error">
+								<span>error:</span> Invalid Enter a name, email, and message!
+						</div>
+				</form>
+			</div>
+		</section>
+		
+		<!--......................................................................................................................................... 
+		.														Pop up message
+		..........................................................................................................................................-->
+
+	
+		<!--......................................................................................................................................... 
+		.														Footer of the Page
+		..........................................................................................................................................-->
+		<footer class="primary-footer container group">
+			<small>Created by Hozaifa Abdalla and hosted via Google App Engine</small>
+			<nav class="nav pages">
+				<ul>
+	    			<li><a href="/">Home</a></li><!--
+	    			--><li><a href="about.html">About</a></li><!--
+	    			--><li><a href="projects.html">Projects</a></li><!--
+	    			--><li><a href="experience.html">Experience</a></li><!--
+	    			--><li><a href="contact.html" class="active">Contact</a></li>
+    			</ul>
+  			</nav>
+		</footer>
+	</body>
+</html>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+			if ($(document).width() >= 594 && $(document).width() <= 850){
+					$(".pages").after("<h6>Created by Hozaifa Abdalla and hosted via Google App Engine</h6>"); // displays the tag on the bottom of the page if screen is between 594 & 850
+			}
+			//validates the users input in order to display the success/error message
+			$(".message").hide();
+			$(".error").hide();
+			$("form").submit(function(){
+				name = $("#name").val();
+				email = $("#email").val();
+				message = $("#message").val();
+				if (name === "" || name === null || email === "" || email === null || message === "" || message === null){
+					$(".error").show();
+					$(".message").hide();
+				}
+				else{
+					$(".message").show();
+					$(".error").hide();
+				}
+			})
+		});
+</script>
