@@ -8,9 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="../static/stylesheets/0-593.css">
 		<link rel="stylesheet" type="text/css" href="../static/stylesheets/594-900.css">
 		<link rel="stylesheet" type="text/css" href="../static/stylesheets/901-1256.css">
-		<link rel="stylesheet" type="text/css" href="../static/stylesheets/1257-desktop.css">
-		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/1257-1471.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src = "../js/app.js"></script>
 	</head>
 	<body>
 		<!--......................................................................................................................................... 
@@ -101,6 +102,22 @@
 					<img src="../static/images/rmp.webp" alt="PSU Rate My Professor Plugin">
 	    			</a>
 	    			<p>Colloborated with <a href="http://www.yehyaawad.com/">Yehya Awad</a>, a Penn State classmate and created a google plugin that adds two columns in the <a href="http://schedule.psu.edu/">student.psu.edu</a> schedule that displays the professor rating, and average grade for each professor from the<a href="http://www.ratemyprofessors.com/"> rate my professor</a> page. Used a python scraper to obtain each professors' rating and average grade and outputed it into a JSON file. The plugin also displays different colors for each element. Green indicates a good rating, red indicates a bad rating, and yellow indicates an average rating. The plugin currently has 63 users.</p>	
+				</section><!--
+				--><section class="teaser col-1-3">
+					<br>
+					<h3 class="project-title">Meeting Scheduling System</h3>
+					<a href="https://github.com/Abdallahozaifa/MeetingSchedulingSystem" target="_blank">
+					<img src="../static/images/MSS.png" alt="Picture of Meeting Scheduling System Application">
+	    			</a>
+	    			<p>A Meeting Scheduling System application I built using Java. The Meeting Scheduling System allows you to create people, rooms, and most importantly, meetings. It allows you to add people and delete people from meetings as well. The application is fault tolerant through Java's regular expressions and all information is displayed through tables and JLists. All the meetings can be saved and imported. Techniques that were implemented into this application are object serialization, regular expressions, action event handling, and object oriented programming principles. All code can be found on my <a href="https://github.com/Abdallahozaifa/MeetingSchedulingSystem" target="_blank">github</a>.  </p>	
+				</section><!-- 
+			--><section class="teaser col-1-3">
+					<br>
+					<h3 class="project-title blog">Tic Toe Game</h3>
+					<a href="https://github.com/Abdallahozaifa/Tic-Tac-Toe-" target="_blank">
+					<img src="../static/images/TTTG.png" alt="Picture of tic tac toe game">
+	    			</a>
+	    			<p>Tic Tac Toe Game I built using Java! The playing field is marked with numbers. The user must enter a number from 1-9. Any other number or letter is rejected. The game includes artifical intelligence. The computers turn is optmized to block the user's turn when available and win the match when theres a chance. </p>	
 				</section>
 				<br>
 				<br>
@@ -145,11 +162,3 @@
 		</footer>
 	</body>
 </html>
-
-<script type="text/javascript">
-		$(document).ready(function(){
-			if ($(document).width() >= 594 && $(document).width() <= 850){
-					$(".pages").after("<h6>Created by Hozaifa Abdalla and hosted via Google App Engine</h6>");
-			}
-		});
-</script>

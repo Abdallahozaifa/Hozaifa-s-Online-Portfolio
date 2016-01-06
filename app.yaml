@@ -8,6 +8,8 @@ handlers:
 - url: /static
   static_dir: static
 
+- url: /js
+  static_dir: js
 
 - url: /.*
   script: portfolio.app
